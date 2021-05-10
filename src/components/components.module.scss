@@ -11,20 +11,33 @@
 }
 
 .login{
-    flex: 1;
     display: flex;
+    margin: 20% 0 20% 0;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     text-align: center;
 
     form{
-        flex: 1;
         width: 60%;   
     
         input{
-            width: 60%;
-        }
+            width: 70%;
+            border-radius: 6px;
+            border-color: green;
+        }   
     }
-    
+}
+
+.loginbt {
+}
+
+.footer{
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;    
+    background-color:#00807a;
+    color: #ece5e5;
+    border-top-left-radius: 100px;
+    font: 700 1.2rem Lexend, sans-serif;
 }

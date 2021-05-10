@@ -9,6 +9,7 @@ export default function login_form() {
                 <input id='email' type="email"/>
                 <p>Password</p>
                 <input id='password' type="password"/>
+                <input className={styles.loginbt} type="button" value="Login"/>
             </form>
         </div>
     )
