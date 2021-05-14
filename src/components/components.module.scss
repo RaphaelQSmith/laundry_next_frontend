@@ -18,26 +18,19 @@
     text-align: center;
 
     form{
-        width: 60%;   
     
         input{
-            width: 70%;
+            width: 20rem;
+            height: 2rem;
             border-radius: 6px;
-            border-color: green;
+            margin: 8px;
+            text-align: center;
+            font: 700 1.2rem Lexend;
         }   
+
+        #bt{
+            background-color: black;
+        }
+
     }
-}
-
-.loginbt {
-}
-
-.footer{
-    display: flex;
-    height: 5rem;
-    justify-content: center;
-    align-items: center;    
-    background-color:#00807a;
-    color: #ece5e5;
-    border-top-left-radius: 100px;
-    font: 700 1.2rem Lexend, sans-serif;
 }

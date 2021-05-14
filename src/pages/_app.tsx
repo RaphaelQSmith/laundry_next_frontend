@@ -11,7 +11,7 @@ export default function MyApp({ Component, pageProps }) {
       <main>
         <Header />
         <Login_form />
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </div>
   )
