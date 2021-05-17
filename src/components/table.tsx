@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './components.module.scss'
 
 export default function table() {
     return (
-        <div>
+        <div className={styles.tableHead}>
             <table>
                 <thead>
                     <th></th>
@@ -15,13 +16,26 @@ export default function table() {
                     <th>Thursday</th>
                 </thead>
                 <tbody>
-                    <tr>Some Staff</tr>
-                    <tr>Some Staff</tr>
-                    <tr>Some Staff</tr>
-                    <tr>Some Staff</tr>
-                    <tr>Some Staff</tr>
-                    <tr>Some Staff</tr>
-                    <tr>Some Staff</tr>
+                    <tr>
+                        <td>Morning</td>
+                        <td>Daniele</td>
+                        <td>Daniele</td>
+                        <td>Daniele</td>
+                        <td>Daniele</td>
+                        <td>Daniele</td>
+                        <td>Daniele</td>
+                        <td>Daniele</td>
+                    </tr>
+                    <tr>
+                        <td>Evening</td>
+                        <td>Francisca</td>
+                        <td>Francisca</td>
+                        <td>Francisca</td>
+                        <td>Francisca</td>
+                        <td>Francisca</td>
+                        <td>Francisca</td>
+                        <td>Francisca</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
