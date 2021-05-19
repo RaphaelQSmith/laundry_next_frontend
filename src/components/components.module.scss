@@ -14,23 +14,19 @@
     display: flex;
     margin: 20% 0 20% 0;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     text-align: center;
 
     form{
         input{
-            width: 20rem;
+            width: 25rem;
             height: 2rem;
             border-radius: 6px;
-            margin: 8px;
+            margin: 10px;
             text-align: center;
             font: 700 1.2rem Lexend;
         }   
-
-        #bt{
-            background-color: black;
-        }
-
     }
 }
 .tableHead {
@@ -43,5 +39,26 @@
         border-color: lightgrey;
         text-align: center;
         font-weight: normal;
+    }
+}
+
+.addStaff{
+    display: flex;
+    flex: 1;
+    margin: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 25rem;
+    }
+    input{
+        height: 2rem;
+        border-radius: 6px;
+        margin: 5px 0 5px 0;
     }
 }

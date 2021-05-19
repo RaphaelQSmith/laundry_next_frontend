@@ -5,6 +5,7 @@ import styles from '../styles/app.module.scss'
 import Login_form from '../components/login_form'
 import Table from '../components/table'
 import Footer from '../components/footer'
+import Addstaff from '../components/addstaff'
 
 export default function MyApp({ Component, pageProps }) {
   return(
@@ -13,7 +14,7 @@ export default function MyApp({ Component, pageProps }) {
         <Header />
         <Login_form />
         <Table />
-        {/* <Footer /> */}
+        <Addstaff />
       </main>
     </div>
   )

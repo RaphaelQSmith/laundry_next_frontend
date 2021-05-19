@@ -5,13 +5,11 @@ export default function login_form() {
     return (
         <div className={styles.login}>
             <form action="/">
-                <p>Email </p>
-                <input id='email' type="email"/>
-                <p>Password</p>
-                <input id='password' type="password"/>
+                <input id='email' placeholder="Email" type="email"/>
+                <input id='password' placeholder="Password" type="password"/>
                 <input style={{
-                    width: '35%', 
-                    height:'25px', 
+                    width: '13%', 
+                    height:'30px', 
                     fontSize: 15, 
                     backgroundColor: '#dfeae2' }} 
                     type="button" value="Login"/>
