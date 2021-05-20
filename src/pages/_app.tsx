@@ -6,6 +6,7 @@ import Login_form from '../components/login_form'
 import Table from '../components/table'
 import Footer from '../components/footer'
 import Addstaff from '../components/addstaff'
+import CreateRoster from '../components/createroster'
 
 export default function MyApp({ Component, pageProps }) {
   return(
@@ -15,6 +16,7 @@ export default function MyApp({ Component, pageProps }) {
         <Login_form />
         <Table />
         <Addstaff />
+        <CreateRoster />
       </main>
     </div>
   )

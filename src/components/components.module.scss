@@ -45,20 +45,30 @@
 .addStaff{
     display: flex;
     flex: 1;
-    margin: 20%;
+    margin: 40px 0px;
     flex-wrap: wrap;
     justify-content: center;
+    align-self: center;
+    width: 100%;
 
-    
     form{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: 25rem;
-    }
-    input{
-        height: 2rem;
-        border-radius: 6px;
-        margin: 5px 0 5px 0;
-    }
+        align-items: center;    
+
+        input{
+            height: 2rem;
+            width: 25rem;
+            border-radius: 6px;
+            margin: 5px 0 5px 0;
+        }
+    }   
+}
+
+.createRoster{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;   
 }
