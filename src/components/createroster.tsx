@@ -31,11 +31,11 @@ export default function createroster() {
                     <option value="Gabriela">Gabriela</option>
                 </select>
                 <select name="Choose one" id="">
-                    <option value="Daniele">Daniela</option>
+                    <option value="Daniele">Daniela</option>dsa
                     <option value="Francisca">Francisca</option>
                     <option value="Gabriela">Gabriela</option>
                 </select>
-                <select name="Choose one" id="">
+                <select name="Choose one" id=""> 
                     <option value="Daniele">Daniela</option>
                     <option value="Francisca">Francisca</option>
                     <option value="Gabriela">Gabriela</option>

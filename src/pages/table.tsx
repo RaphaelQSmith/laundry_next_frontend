@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './components.module.scss'
+import styles from '../components/components.module.scss'
 
 export default function table() {
     return (

@@ -1,7 +1,6 @@
-import React from 'react'
 import styles from './components.module.scss'
 
-export default function login_form() {
+export default function loginform() {
     return (
         <div className={styles.login}>
             <form action="/">
