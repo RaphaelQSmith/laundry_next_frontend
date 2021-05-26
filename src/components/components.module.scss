@@ -1,13 +1,18 @@
 .header{
     flex: 1;
     flex-grow: inherit;
-    color: rgb(236, 229, 229);
     background-color: #00807a;
     align-content: space-around;
+    text-align: center;
     height: 5rem;
     padding: 1rem 0 0 1rem;
     border-bottom-right-radius: 100px;
     font: 700 1.2rem Lexend, sans-serif;
+
+    a{
+        text-decoration: none;
+        color: rgb(236, 229, 229);
+    }
 }
 
 .login{
@@ -72,4 +77,12 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;   
+}
+
+.homeContainer{
+    h2{
+        text-align: center;
+        padding-top: 20rem;
+        font: Lexend, sans-serif;
+    }
 }

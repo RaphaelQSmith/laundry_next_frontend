@@ -5,7 +5,7 @@ export default function header() {
     return (
         <div>
             <header className={styles.header}>
-                <h1>Online Roster</h1>
+                <h1><a href="/">Online Roster</a></h1>
             </header>
         </div>
     )
