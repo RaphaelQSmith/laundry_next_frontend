@@ -76,7 +76,14 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;   
+    align-items: center;
+    margin-top: 10rem;
+    
+    select{
+        margin: 0.3rem;
+        border-radius: 0.3rem;
+        border-color: black;
+    }
 }
 
 .homeContainer{
