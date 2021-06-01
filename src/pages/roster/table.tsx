@@ -5,7 +5,7 @@ var today = time.getFullYear() + "/" + (time.getMonth()+1) + "/" + time.getDate(
 export default function table() {
     return (
         <div>
-            <h3>{today}</h3>
+            <h3 className={styles.tableDate}>{today}</h3>
             <div className={styles.tableHead}>
                 <table>
                     <thead>
@@ -42,6 +42,6 @@ export default function table() {
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div>        
     )
 }
